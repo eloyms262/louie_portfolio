@@ -25,3 +25,30 @@ li{
 .welc{
     font-family: mags;
 }
+
+.title{
+    
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+.card {
+    flex: 1 0 21%; /* 21% so as to have a little space between the cards */
+    margin: 2%;
+    max-width: 400px;
+    cursor: pointer;
+    background: #e0e5f6;
+
+}
+.card img{
+    height: 400px;
+    object-fit: contain;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
